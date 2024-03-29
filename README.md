@@ -106,10 +106,12 @@ YOLOv8모델 성능
 <p align="center">
 <img src = "assets/PR_curve.png" width="500" height="300">
 </p>
+
 - 모든 클래스의 mAP가 0.5 IOU에서 0.994로 매우 높다. 이는 높은 정밀도와 함께 높은 재현율을 가진 모델을 나타냄
 <p align="center">
 <img src = "assets/R_curve.png" width="500" height="300">
 </p>
+
 - 모든 클래스에 대해 재현율이 1.00으로 나타나고 있으며, 이는 신뢰도가 매우 낮은 점에서도 모델이 모든 실제 참 항목들을 성공적으로 예측하고 있음을 의미함
 
 전반적으로 이 모델은 높은 신뢰도에서 매우 높은 정밀도와 재현율을 보여주고 있으며, 이는 우수한 성능을 가진 객체 탐지 모델을 나타냄
@@ -120,12 +122,14 @@ YOLOv8모델 성능
 <img src = "assets/image4.png" width="300" height="300">
 <img src = "assets/image5.png" width="300" height="300">
 </p>
+
 - 주차장 mask와 킥보드 휠 mask의 겹침의 정도를 구하여 위 표와 같이 점수 부여
 
 # 8. Trition 서버
 <p align="center">
  <img src = "assets/image6.png" width="750" height="300">
 </p>
+
 - YOLOv8 + MR-CNN의 순차적 처리와 Triton을 이용한 병렬처리
 - 속도는 약 2배 이상 차이
 - 성능은 거의 90~100%로 비슷
@@ -134,6 +138,7 @@ YOLOv8모델 성능
 <p align="center">
  <img src = "assets/image7.png" width="750" height="350">
 </p>
+
 - 서버 및 모델의 리소스 사용에 대한 실시간 모니터링  
 
 # 10. 기대효과
