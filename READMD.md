@@ -1,7 +1,11 @@
 # 공유킥보드 주차상태 분석 시스템
 ---
 기간 : 24.01.29~24.03.12
-![[공유킥보드.png]]
+
+<p align="center">
+
+	 <img src = "assets/image0.png" width="700" height="400">
+	</p>
 
 # 목차
 ---
