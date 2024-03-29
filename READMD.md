@@ -4,7 +4,7 @@
 
 <p align="center">
 
-	 <img src = "assets/image0.png" width="700" height="400">
+	 <img src = "./assets/image0.png" width="700" height="400">
 	</p>
 
 # 목차
