@@ -84,8 +84,8 @@
   
 - 두 가지 모델 사용 이유
 	<p align="center">
-	<img src = "C:/Users/hnoo0/multicampus31/finalProject/assets/image1.png" width="300" height="300">
-	<img src = "C:/Users/hnoo0/multicampus31/finalProject/assets/image2.png" width="300" height="300">
+	<img src = "assets/image1.png" width="300" height="300">
+	<img src = "assets/image2.png" width="300" height="300">
 	</p>
   Mask R-CNN(오른쪽)에서의 결과 오류를 YOLOv8(왼쪽) 좌표 값으로 구별함
   
