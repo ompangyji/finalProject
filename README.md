@@ -81,24 +81,24 @@ YOLOv8모델 성능
 <img src = "assets/results.png" width="600" height="300">
 </p>
 
-- train/box_loss 및 val/box_loss
+- train/box_loss 및 val/box_loss<br>
   훈련 데이터에서는 시간이 지남에 따라 손실이 감소하고 있으며, 이는 모델이 객체의 위치를 점점 더 잘 예측하고 있음을 의미함 
   검증 데이터에서도 비슷한 추세를 보이지만, 손실 값이 다소 높음. 이는 훈련 데이터에 비해 검증 데이터에서의 성능이 조금 낮을 수 있음을 알 수 있음
 
-- train/cls_loss 및 val/cls_loss
+- train/cls_loss 및 val/cls_loss<br>
   train, val 모두 손실이 감소하고 있어, 모델이 클래스를 더 정확하게 예측하고 있음을 나타냄
 
-- train/dfl_loss 및 val/dfl_loss
+- train/dfl_loss 및 val/dfl_loss<br>
   'dfl_loss'는 'Distribution-Focal Loss'의 약자이며 각 클래스에 대한 예측의 확률 분포를 고려하고 예측 분포와 실제 분포 사이의 불일치를 최소화하여 모델의 성능을 향상시킴
   이 경우에도, 훈련과 검증 모두에서 손실이 감소하고 있음
 
-- metrics/precision(B) 및 metrics/recall(B)
+- metrics/precision(B) 및 metrics/recall(B)<br>
   두 지표 모두 높은 값을 보여주고 있어, 모델이 해당 클래스에서 우수한 성능을 보여줌
 
-- metrics/mAP50(B)
+- metrics/mAP50(B)<br>
   높은 mAP 값으로 모델이 객체를 잘 탐지하고 있음을 보여줌
    
-- metrics/mAP50-95(B)
+- metrics/mAP50-95(B)<br>
   높은 값을 보여주고 있어 모델이 다양한 조건에서 잘 작동하고 있음을 나타냄
   
 전반적으로, 모델은 학습이 진행됨에 따라 손실이 감소하고 성능 지표가 향상되는 추세를 보이며, 이는 모델이 학습 데이터를 잘 학습하고 있으며 검증 데이터에서도 일반화를 잘 하고 있음을 의미함 그러나, 훈련 데이터에 비해 검증 손실이 다소 높은 것은 과적합의 가능성일 수 있음
