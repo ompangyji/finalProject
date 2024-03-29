@@ -177,7 +177,7 @@ YOLOv8모델 성능
 
 `데이터 분석을 통한 깊은 통찰과 이해의 여정에서 시간과 자원의 한계를 극복하며, 분석 기술과 문제 해결 능력의 중요성을 깨달음`
 
-# :point_right: [노션](https://www.notion.so/c021634c728d400d93fb47109bd19475?pvs=4)
+# :point_right: [노션](https://www.notion.so/c021634c728d400d93fb47109bd19475?pvs=4) 자세한 내용
 
 
 
