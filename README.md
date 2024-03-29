@@ -80,6 +80,7 @@ YOLOv8모델 성능
 <p align="center">
 <img src = "assets/results.png" width="600" height="300">
 </p>
+
 - train/box_loss 및 val/box_loss
   훈련 데이터에서는 시간이 지남에 따라 손실이 감소하고 있으며, 이는 모델이 객체의 위치를 점점 더 잘 예측하고 있음을 의미함 
   검증 데이터에서도 비슷한 추세를 보이지만, 손실 값이 다소 높음. 이는 훈련 데이터에 비해 검증 데이터에서의 성능이 조금 낮을 수 있음을 알 수 있음
