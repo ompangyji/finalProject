@@ -3,9 +3,8 @@
 기간 : 24.01.29~24.03.12
 
 <p align="center">
-
-	 <img src = "assets/image0.png" width="700" height="400">
-	</p>
+<img src = "assets/image0.png" width="700" height="400">
+</p>
 
 # 목차
 ---
