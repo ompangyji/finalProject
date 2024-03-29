@@ -9,7 +9,7 @@
 조장 : 전원영
 팀원 : 김민정, 박한솔, 백성은, 정연지
 
-# 2. wbs
+# 2. WBS
 
 <p align="center">
 <img src = "assets/image11.png" width="700" height="450">
