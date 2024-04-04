@@ -129,7 +129,7 @@
  <img src = "assets/image6.png" width="750" height="300">
 </p>
 
-- YOLOv8 + MR-CNN의 순차적 처리와 Triton을 이용한 병렬처리
+- YOLOv8 + Mask R-CNN의 순차적 처리와 Triton을 이용한 병렬처리
 - 속도는 약 2배 이상 차이
 - 성능은 거의 90~100%로 비슷
 
